@@ -1,19 +1,26 @@
-# Atari-Berzerk
+# Atari-OpenAI
+
+ALE Package Supported Games : https://github.com/mgbellemare/Arcade-Learning-Environment/blob/master/docs/games.md
 
 ### Installation
 
-'''
-$pip install -r requirements.txt
-'''
+
+```$pip install -r requirements.txt```
+
 
 Accept AutoROM license
 
-'''
-$AutoROM --accept-license
-'''
+```$AutoROM --accept-license```
 
-### Running the program
 
-'''
-$python -m src -e <environment> -s <solution>
-'''
+### Running src
+
+loadenv supports 'mario' and 'berzerk' as the only games.
+
+```$python -m src -e <environment> -s <solution>```
+
+
+### Notebook
+
+#### space-invaders:
+
